@@ -1,4 +1,4 @@
-title,description,image,link
-バナーデザイン,Webサイト用のバナーデザイン,./media/top_s.jpg,https://sskg-lab.studio.site/
-Processing小作品,Processingを使ったインタラクティブ作品,./media/top_s.jpg,#
-アプリUIデザイン,スマートフォンアプリのUIデザイン,./media/top_s.jpg,#
+title,description,image,link,category,year
+GregTech-Odyssey,,./media/work1.png,#,モードパック,2024
+Nova Engineering - World,,./media/work2.png,#,モードパック,2025
+Beebeeblock: The Skyhive,,./media/work3.png,#,モードパック,2026

@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>Chen Feihan</title>
-        <link rel="stylesheet" href="style.css">  
-    </head>
-    <body>
-        <header>
-            <a href="#top">Chen Feihan</a>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#works">works</a>
-            </nav>
-        </header>
-        <main>
-            <section id="top">
-                <img src="./media/20260925150203.png" width="80%">
-                <h1>
-                    Chen Feihan<br>
-                    Protfolio
-                </h1>
-            </section>
-            <section id="about">
-                <h3>About</h3>
-                <p>
-                    陳 飛翰<br>
-                    東京都市大学デザイン•データ科学部
-                </p>
-                <p>
-                    趣味：「マイクラフト」サーバの自主運営
-                    ドメイン(IPV6): nidiedeshijie.com
-                </p>
-            </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chen Feihan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="#top">Chen Feihan</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#works">works</a>
+        </nav>
+    </header>
+    <main>
+        <section id="top">
+            <img src="./media/20260925150203.png" width="80%">
+            <h1>
+                Chen Feihan<br>
+                Protfolio
+            </h1>
+            <p id="weather-icon"></p>
+        </section>
+        <section id="about">
+            <h3>About</h3>
+            <p>
+                陳 飛翰<br>
+                東京都市大学デザイン•データ科学部
+            </p>
+            <p>
+                趣味：「マイクラフト」サーバの自主運営
+                ドメイン(IPV6): nidiedeshijie.com
+            </p>
+        </section>
 
-            <section id="works" class="works">
-                <h3>モードパック</h3>
-                <div class="works-controls">
-                    <select id="category">
-                        <option value="all">すべてのカテゴリ</option>
-                    </select>
-                    <select id="sort">
-                        <option value="new">新しい順</option>
-                        <option value="old">古い順</option>
-                        <option value="title">タイトル順</option>
-                    </select>
-                </div>
-                
-                <div id="works-grid"></div>
-                
-            </section>
-        </main>
-        <footer>
-            <span>© 2026 Chen Feihan</span>
-        </footer>
-        
-        <script src="works.js"></script>
-    </body>
+        <section id="works" class="works">
+            <h3>モードパック</h3>
+            <div class="works-controls">
+                <select id="category">
+                    <option value="all">すべてのカテゴリ</option>
+                </select>
+                <select id="sort">
+                    <option value="new">新しい順</option>
+                    <option value="old">古い順</option>
+                    <option value="title">タイトル順</option>
+                </select>
+            </div>
+            <div id="works-grid"></div>
+        </section>
+    </main>
+    <footer>
+        <span>© 2026 Chen Feihan</span>
+    </footer>
+
+    <script src="works.js"></script>
+</body>
 </html>
